@@ -1,7 +1,8 @@
 const SearchBar = () => {
   return (
     <div>
-      <h1>This is search bar</h1>
+      <input className="w-[360px] h-10" type="text" />
+      <button className="bg-[#FF444A] px-6 py-3">Search</button>
     </div>
   );
 };

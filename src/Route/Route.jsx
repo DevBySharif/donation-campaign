@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import Details from "../DonationDetails/Details";
 import Mainlayout from "../Layout/Mainlayout";
 import Donation from "../Pages/Donation/Donation";
 import Home from "../Pages/Home/Home";
@@ -21,6 +22,11 @@ const myRoute = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics></Statistics>,
+      },
+      {
+        path: "/details/:id",
+        element: <Details></Details>,
+        loader: () => fetch("/data.json"),
       },
     ],
   },

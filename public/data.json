@@ -8,7 +8,7 @@
       "category_text_bg": "#0052FF",
       "card_bg": "#0052FF",
       "text_color": "#0052FF",
-      "description": "Support healthcare initiatives that reach the most vulnerable populations.",
+      "description": "Support healthcare initiatives that provide critical medical assistance to vulnerable populations. Your $30 contribution can help deliver essential medical services to those in need, ensuring they have access to quality care and a chance for healthier lives.",
       "price": 30
     },
     {
@@ -19,7 +19,7 @@
       "category_text_bg": "#79C23F",
       "card_bg": "#79C23F",
       "text_color": "#79C23F",
-      "description": "Donate clothing items to help those in need stay warm and comfortable.",
+      "description": "Join our clothing drive and make a difference in the lives of those less fortunate. With a $20 donation, you can provide warm clothing to individuals facing hardship, helping them stay comfortable during challenging times.",
       "price": 20
     },
     {
@@ -30,7 +30,7 @@
       "category_text_bg": "#F87147",
       "card_bg": "#F87147",
       "text_color": "#F87147",
-      "description": "Provide nutritious meals to those facing hunger and food insecurity.",
+      "description": "Help combat hunger by donating $15 to provide nutritious meals to individuals and families facing food insecurity. Your support can make a significant impact in ensuring that no one goes to bed hungry.",
       "price": 15
     },
     {
@@ -41,7 +41,7 @@
       "category_text_bg": "#FF444A",
       "card_bg": "#FF444A",
       "text_color": "#FF444A",
-      "description": "Support the education of children in underserved areas and give them a brighter future.",
+      "description": "Empower underserved children with the gift of education. Your $25 donation can support educational programs, giving disadvantaged kids the opportunity to build a brighter future through learning.",
       "price": 25
     },
     {
@@ -52,7 +52,7 @@
       "category_text_bg": "#0052FF",
       "card_bg": "#0052FF",
       "text_color": "#0052FF",
-      "description": "Ensure access to essential healthcare services for everyone in need.",
+      "description": "Ensure that everyone, regardless of their circumstances, has access to vital healthcare services. Your $35 donation can help remove barriers to medical care, promoting health and well-being for all.",
       "price": 35
     },
     {
@@ -63,7 +63,7 @@
       "category_text_bg": "#79C23F",
       "card_bg": "#79C23F",
       "text_color": "#79C23F",
-      "description": "Provide warm clothing to homeless individuals during the winter season.",
+      "description": "Extend warmth and compassion to the homeless during the cold winter months. With a $20 donation, you can provide much-needed clothing, offering comfort and hope to those in need.",
       "price": 20
     },
     {
@@ -74,7 +74,7 @@
       "category_text_bg": "#F87147",
       "card_bg": "#F87147",
       "text_color": "#F87147",
-      "description": "Support the expansion of food banks to reach more families in need.",
+      "description": "Support the expansion of food banks to reach more families struggling with hunger. Your $18 donation can help us feed more mouths and provide relief to those facing food shortages.",
       "price": 18
     },
     {
@@ -85,7 +85,7 @@
       "category_text_bg": "#FF444A",
       "card_bg": "#FF444A",
       "text_color": "#FF444A",
-      "description": "Provide scholarships to bright students who lack the financial means to pursue higher education.",
+      "description": "Invest in the future by providing scholarships to talented, underprivileged students. Your $30 contribution can pave the way for higher education and brighter prospects for these deserving individuals.",
       "price": 30
     },
     {
@@ -96,7 +96,7 @@
       "category_text_bg": "#0052FF",
       "card_bg": "#0052FF",
       "text_color": "#0052FF",
-      "description": "Provide immediate medical relief to disaster-affected communities.",
+      "description": "Extend a lifeline to disaster-affected communities with immediate medical relief. Your $40 donation can provide urgent healthcare, saving lives and offering hope in times of crisis.",
       "price": 40
     },
     {
@@ -107,7 +107,7 @@
       "category_text_bg": "#79C23F",
       "card_bg": "#79C23F",
       "text_color": "#79C23F",
-      "description": "Donate clothing to children living in orphanages and shelters.",
+      "description": "Bring comfort and joy to children living in orphanages and shelters. With a $15 donation, you can provide essential clothing items, ensuring these young souls have warmth and dignity.",
       "price": 15
     },
     {
@@ -118,7 +118,7 @@
       "category_text_bg": "#F87147",
       "card_bg": "#F87147",
       "text_color": "#F87147",
-      "description": "Help fund school meals programs to ensure children receive proper nutrition.",
+      "description": "Help us nourish young minds by funding school meals programs. Your $12 donation can support educational success by ensuring that students receive the nutrition they need to thrive academically.",
       "price": 12
     },
     {
@@ -129,7 +129,7 @@
       "category_text_bg": "#FF444A",
       "card_bg": "#FF444A",
       "text_color": "#FF444A",
-      "description": "Support literacy programs to empower underserved communities through education.",
+      "description": "Empower underserved communities through literacy programs. Your $28 contribution can break the cycle of illiteracy, offering individuals the skills and knowledge needed for a brighter future.",
       "price": 28
     }
   ]

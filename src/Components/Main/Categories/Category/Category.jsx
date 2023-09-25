@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
+
 const Category = ({ data }) => {
-  console.log(data);
   const {
     id,
     picture,
@@ -8,7 +9,7 @@ const Category = ({ data }) => {
     card_bg,
     category_text_bg,
     text_color,
-  } = data;
+  } = data || {};
 
   const cardBg = {
     backgroundColor: `${card_bg}3A`,
@@ -25,22 +26,24 @@ const Category = ({ data }) => {
 
   return (
     <div>
-      <div className="shadow-xl rounded-lg" style={cardBg}>
-        <figure>
-          <img className="w-full" src={picture} alt="Shoes" />
-        </figure>
-        <div className="card-body">
-          <h2
-            className="text-sm font-medium"
-            style={{ ...categoryTextBg, ...categoryText }}
-          >
-            {category}
-          </h2>
-          <p className="text-5 font-semibold h-10" style={categoryText}>
-            {title}
-          </p>
+      <Link to={`/details/${id}`}>
+        <div className="shadow-xl rounded-lg" style={cardBg}>
+          <figure>
+            <img className="w-full" src={picture} alt="Shoes" />
+          </figure>
+          <div className="card-body">
+            <h2
+              className="text-sm font-medium"
+              style={{ ...categoryTextBg, ...categoryText }}
+            >
+              {category}
+            </h2>
+            <p className="text-5 font-semibold h-10" style={categoryText}>
+              {title}
+            </p>
+          </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 };

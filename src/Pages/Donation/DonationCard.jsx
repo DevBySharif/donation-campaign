@@ -14,13 +14,13 @@ const DonationCard = ({ donation }) => {
     <div>
       <div className="card card-side bg-base-100 shadow-xl">
         <figure>
-          <img src={picture} alt="image" />
+          <img className="h-full" src={picture} alt="image" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">New movie is released!</h2>
-          <p>Click the button to watch on Jetflix app.</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Watch</button>
+          <p>{category}</p>
+          <h2 className="card-title">{title}</h2>
+          <div className="card-actions justify-center">
+            <button className="btn btn-primary">View Details</button>
           </div>
         </div>
       </div>

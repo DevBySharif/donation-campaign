@@ -5,7 +5,6 @@ import DonationDetails from "./DonationDetails";
 const Details = () => {
   const [details, setDetails] = useState({});
   const { id } = useParams();
-  console.log(id);
   const data = useLoaderData();
   const donationData = data.data;
 

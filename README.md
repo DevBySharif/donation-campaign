@@ -14,8 +14,9 @@ Here are three key features of this Donation Campaign project:
    - As user select donation category user can see the donation amount and how many category were selected.
 
 3. Statistics menu and pie chart:
-   -In this project there a statistics menu component where use can see a pie chart.
-   -Pie chart displayed with the total donation percentage with the total amount of user donation.
+
+   - In this project there a statistics menu component where use can see a pie chart.
+   - Pie chart displayed with the total donation percentage with the total amount of user donation.
 
 4. Error handling:
    - The project includes a error page to handle the error of this project.

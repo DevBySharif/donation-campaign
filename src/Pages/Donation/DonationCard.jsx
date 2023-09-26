@@ -10,7 +10,7 @@ const DonationCard = ({ donation }) => {
     card_bg,
     category_text_bg,
     text_color,
-  } = donation || {};
+  } = donation || [];
 
   const cardBg = {
     backgroundColor: `${card_bg}3A`,

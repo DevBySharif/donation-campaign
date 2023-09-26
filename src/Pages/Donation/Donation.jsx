@@ -41,19 +41,13 @@ const Donation = () => {
           )}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 justify-center items-center">
             {isShow
-              ? donations.map((donation) => (
-                  <DonationCard
-                    key={donation.id}
-                    donation={donation}
-                  ></DonationCard>
+              ? donations.map((donation, idx) => (
+                  <DonationCard key={idx} donation={donation}></DonationCard>
                 ))
               : donations
                   .slice(0, 4)
-                  .map((donation) => (
-                    <DonationCard
-                      key={donation.id}
-                      donation={donation}
-                    ></DonationCard>
+                  .map((donation, idx) => (
+                    <DonationCard key={idx} donation={donation}></DonationCard>
                   ))}
           </div>
           {donations.length > 4 && (

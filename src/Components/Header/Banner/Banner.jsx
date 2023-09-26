@@ -1,6 +1,6 @@
 import SearchBar from "./SearchBar/SearchBar";
 
-const Banner = ({ data }) => {
+const Banner = () => {
   return (
     <div className="h-[60vh] text-center flex justify-center items-center">
       <div className="space-y-10">

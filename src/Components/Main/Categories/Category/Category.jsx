@@ -54,7 +54,7 @@ const Category = ({ data }) => {
 };
 
 Category.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.object,
 };
 
 export default Category;

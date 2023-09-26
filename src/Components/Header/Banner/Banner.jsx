@@ -2,7 +2,7 @@ import SearchBar from "./SearchBar/SearchBar";
 
 const Banner = () => {
   const background = {
-    backgroundImage: "url('/public/background.png')",
+    backgroundImage: "url('background.png')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -15,7 +15,9 @@ const Banner = () => {
       style={background}
     >
       <div className="space-y-10">
-        <h1 className="text-5xl font-bold">I Grow By Helping People In Need</h1>
+        <h1 className="text-5xl font-bold">
+          I Grow Up By Helping People In Need
+        </h1>
         <SearchBar></SearchBar>
       </div>
     </div>

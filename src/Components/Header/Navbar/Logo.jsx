@@ -4,11 +4,7 @@ const Logo = () => {
   return (
     <div className="md:flex justify-center mb-5">
       <Link to="/">
-        <img
-          className="lg:w-3/4 md:content-center"
-          src="/public/Logo.png"
-          alt=""
-        />
+        <img className="lg:w-3/4 md:content-center" src="Logo.png" alt="" />
       </Link>
     </div>
   );

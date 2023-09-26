@@ -20,7 +20,7 @@ const DonationDetails = ({ details }) => {
     <div className="my-12">
       <div className="relative">
         <img
-          className="w-[1300px] h-[700px] rounded-lg mb-14"
+          className="lg:w-[1300px] lg:h-[700px] rounded-lg mb-14"
           src={picture}
           alt="image"
         />

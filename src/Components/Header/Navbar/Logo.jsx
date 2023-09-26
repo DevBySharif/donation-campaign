@@ -2,9 +2,13 @@ import { Link } from "react-router-dom";
 
 const Logo = () => {
   return (
-    <div>
+    <div className="md:flex justify-center mb-5">
       <Link to="/">
-        <img className="w-3/4" src="/public/Logo.png" alt="" />
+        <img
+          className="lg:w-3/4 md:content-center"
+          src="/public/Logo.png"
+          alt=""
+        />
       </Link>
     </div>
   );

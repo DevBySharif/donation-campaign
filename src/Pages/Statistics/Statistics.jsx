@@ -41,8 +41,33 @@ const Statistics = () => {
     { name: "Total Donation", value: totalDonationPercentage },
   ];
 
-  // Define colors for the pie chart segments
   const colors = ["#00C49F", "#FF444A"];
+
+  const RADIAN = Math.PI / 180;
+  const renderCustomizedLabel = ({
+    cx,
+    cy,
+    midAngle,
+    innerRadius,
+    outerRadius,
+    percent,
+  }) => {
+    const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+    const x = cx + radius * Math.cos(-midAngle * RADIAN);
+    const y = cy + radius * Math.sin(-midAngle * RADIAN);
+
+    return (
+      <text
+        x={x}
+        y={y}
+        fill="white"
+        textAnchor={x > cx ? "start" : "end"}
+        dominantBaseline="central"
+      >
+        {`${(percent * 100).toFixed(0)}%`}
+      </text>
+    );
+  };
 
   return (
     <div>
@@ -53,6 +78,7 @@ const Statistics = () => {
             dataKey="value"
             nameKey="name"
             labelLine={false}
+            label={renderCustomizedLabel}
             cx="50%"
             cy="50%"
             outerRadius={130}

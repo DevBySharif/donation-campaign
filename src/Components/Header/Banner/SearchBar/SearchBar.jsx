@@ -1,19 +1,18 @@
 import { useState } from "react";
 
-const SearchBar = ({ data }) => {
-  const { category } = data;
-  console.log(category);
-  const [inputValue, setInputValue] = useState("");
+const SearchBar = () => {
+  const { inputValue, setInputValue } = useState("");
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
   };
 
   const handleSubmit = () => {
-    if (inputValue === `${category}`) {
-      console.log(category);
+    if (inputValue) {
+      console.log("Searching for:", inputValue);
     }
   };
+
   return (
     <div>
       <input
@@ -21,6 +20,7 @@ const SearchBar = ({ data }) => {
         type="text"
         placeholder="Search here.."
         onChange={handleInputChange}
+        value={inputValue}
       />
       <button
         onClick={handleSubmit}

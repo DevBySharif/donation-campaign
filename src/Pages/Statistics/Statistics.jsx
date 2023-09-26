@@ -35,7 +35,6 @@ const Statistics = () => {
 
   const yourDonationPercentage = (storedDonation / totalCategoryPrice) * 100;
   const totalDonationPercentage = 100 - yourDonationPercentage;
-  console.log(yourDonationPercentage, totalDonationPercentage);
 
   const data = [
     { name: "Your Donation", value: yourDonationPercentage },
@@ -48,7 +47,7 @@ const Statistics = () => {
   return (
     <div>
       <ResponsiveContainer width="100%" height={400}>
-        <PieChart width={400} height={400}>
+        <PieChart width={500} height={500}>
           <Pie
             data={data}
             dataKey="value"
@@ -56,7 +55,7 @@ const Statistics = () => {
             labelLine={false}
             cx="50%"
             cy="50%"
-            outerRadius={80}
+            outerRadius={130}
             fill="#8884d8"
           >
             {data.map((entry, index) => (
@@ -73,8 +72,7 @@ const Statistics = () => {
             y="50%"
             dominantBaseline="central"
             textAnchor="middle"
-            fill="#ffffff" // White text color
-            fontSize={24} // Adjust the font size as needed
+            fill="#ffffff"
           >
             <tspan>{`${yourDonationPercentage.toFixed(2)}%`}</tspan>
             <tspan dy="1em">{`${totalDonationPercentage.toFixed(2)}%`}</tspan>

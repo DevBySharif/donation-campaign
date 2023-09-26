@@ -29,7 +29,11 @@ const Category = ({ data }) => {
       <Link to={`/details/${id}`}>
         <div className="shadow-xl rounded-lg" style={cardBg}>
           <figure>
-            <img className="w-full" src={picture} alt="Shoes" />
+            <img
+              className="w-full h-[250px] rounded-t-lg"
+              src={picture}
+              alt="Shoes"
+            />
           </figure>
           <div className="card-body">
             <h2
